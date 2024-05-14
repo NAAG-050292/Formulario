@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style/estilos.css">
+</head>
+<body>
+
+<main class="main">
+<!-- <section class="formulario container"> -->
+    <!-- <form class="form"> -->
+        <!-- <h2 class="form_title">Envie su Formulario</h2> -->
+        <!-- <p class="form_paragraph">Aun no tienes una cuenta? <a href="#" class="form_link">Entra Aqui</a></p> -->
+
+        <!-- <div class="form_container"> -->
+            <!-- <div class="form_group"> -->
+                <!-- <input type="text" id="name" class="form_input" placeholder=" "> -->
+                <!-- <label for="name" class="form_label">Nombre</label> -->
+                <!-- <span class="form_line"></span> -->
+            <!-- </div> -->
+            <!-- <div class="form_group"> -->
+                <!-- <input type="text" id="user" class="form_input" placeholder=" "> -->
+                <!-- <label for="user" class="form_label">Correo Electronico</label> -->
+                <!-- <span class="form_line"></span> -->
+            <!-- </div> -->
+            <!-- <div class="form_group"> -->
+                <!-- <input type="text" id="password" class="form_input" placeholder=" "> -->
+                <!-- <label for="subject" class="form_label">Asunto</label> -->
+                <!-- <input type="text" name="subject"> -->
+                <!-- <span class="form_line"></span> -->
+            <!-- </div> -->
+            <!-- <div class="form_group"> -->
+                <!-- <input type="text" id="password" class="form_input" placeholder=" "> -->
+                <!-- <label for="password" class="form_label">Comentario</label> -->
+                <!-- <textarea name="Comentario" cols="15" rows="15"></textarea> -->
+            </div>
+            <!-- <input type="submit" class="form_submit" value="Enviar"> -->
+        <!-- </div> -->
+    <!-- </form> -->
+<!-- </section> -->
+<!-- 
+<section class="form container">
+    
+    <form class="form">
+        <form class="container" id="wrapper">
+            <h2>Envie su Formulario</h2>
+
+            <formulario acción="https://formsubmit.co/norlanaguirre84@gmail.com" método="POST">
+            
+            <input type="text" id="name" class="form_input" placeholder=" ">
+            <label for="name">nombre</label>
+            <input type="text" name="name">
+        
+            <label for="email">correo</label>
+            <input type="email" name="email">
+        
+            <label for="subject">asunto</label>
+            <input type="text" name="subject">
+        
+            <label for="Comentario">comentarios</label>
+            <textarea name="comentarios" cols="30" rows="30"></textarea>
+        
+            <input type="submit" value="enviar">
+        </formulario>
+    
+        </form>
+    </form>
+</section> -->
+
+<div class="container">
+    <h1>FormSubmit Demo</h1>
+    <form target="_blank" action="https://formsubmit.co/norlanaguirre84@gmail.com" method="POST">
+      <div class="form-group">
+        <div class="form-row">
+          <div class="col">
+            <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+          </div>
+          <div class="col">
+            <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+    
+      <input type="hidden" name="_next" value="https://naag-050292.github.io/formulario/">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+    
+    </form>
+  </div>
+
+</main>
+</body>
+</html>
